@@ -3,7 +3,23 @@
   <div class="wrapper">
 
     <a href="{{ site.baseurl }}/">
-      <img src="/images/logo.png" width="92" height="62" />
+      <div id="logo" class="logo">
+        <!-- Preload images -->
+        <img src="/images/logo1.png" />
+        <img src="/images/logo2.png" />
+        <img src="/images/logo3.png" />
+        <img src="/images/logo4.png" />
+        <img src="/images/logo5.png" />
+        <img src="/images/logo6.png" />
+        <img src="/images/logo7.png" />
+      </div>
+
+      <script type="text/javascript">
+(function() {
+  var logo = document.getElementById('logo');
+  logo.onmouseover = function() { logo.classList.add('logo-animation-back'); }
+})();
+      </script>
     </a>
 
   </div>

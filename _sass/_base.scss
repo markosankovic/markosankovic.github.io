@@ -134,9 +134,9 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: transparent;
+  border-radius: 4px;
+  color: #f8f8f2;
+  background-color: #272822;
 }
 
 code {
@@ -289,4 +289,44 @@ pre {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.logo {
+  width: 92px;
+  height: 62px;
+  display: inline-block;
+  background-image: url('/images/logo1.png');
+  background-size: cover;
+  -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+  animation-direction: alternate;
+  img {
+    display:none;
+  }
+  &:hover {
+    animation: logo-animation 500ms steps(1) forwards;
+  }
+}
+
+.logo-animation-back {
+  animation: logo-animation-back 500ms steps(1) forwards;
+}
+
+@keyframes logo-animation {
+  0%   { background-image: url('/images/logo1.png'); }
+  17%   { background-image: url('/images/logo2.png'); }
+  34%   { background-image: url('/images/logo3.png'); }
+  53%   { background-image: url('/images/logo4.png'); }
+  70%   { background-image: url('/images/logo5.png'); }
+  87%   { background-image: url('/images/logo6.png'); }
+  100%   { background-image: url('/images/logo7.png'); }
+}
+
+@keyframes logo-animation-back {
+  0%   { background-image: url('/images/logo7.png'); }
+  17%   { background-image: url('/images/logo6.png'); }
+  34%   { background-image: url('/images/logo5.png'); }
+  53%   { background-image: url('/images/logo4.png'); }
+  70%   { background-image: url('/images/logo3.png'); }
+  87%   { background-image: url('/images/logo2.png'); }
+  100%   { background-image: url('/images/logo1.png'); }
 }
