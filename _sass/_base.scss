@@ -303,30 +303,26 @@ pre {
     display:none;
   }
   &:hover {
-    animation: logo-animation 500ms steps(1) forwards;
+    animation: logo-animation 600ms steps(1) forwards;
   }
 }
 
 .logo-animation-back {
-  animation: logo-animation-back 500ms steps(1) forwards;
+  animation: logo-animation-back 600ms steps(1) forwards;
 }
 
 @keyframes logo-animation {
   0%   { background-image: url('/images/logo1.png'); }
-  17%   { background-image: url('/images/logo2.png'); }
-  34%   { background-image: url('/images/logo3.png'); }
-  53%   { background-image: url('/images/logo4.png'); }
-  70%   { background-image: url('/images/logo5.png'); }
-  87%   { background-image: url('/images/logo6.png'); }
-  100%   { background-image: url('/images/logo7.png'); }
+  25%   { background-image: url('/images/logo2.png'); }
+  50%   { background-image: url('/images/logo3.png'); }
+  75%   { background-image: url('/images/logo4.png'); }
+  100%   { background-image: url('/images/logo5.png'); }
 }
 
 @keyframes logo-animation-back {
-  0%   { background-image: url('/images/logo7.png'); }
-  17%   { background-image: url('/images/logo6.png'); }
-  34%   { background-image: url('/images/logo5.png'); }
-  53%   { background-image: url('/images/logo4.png'); }
-  70%   { background-image: url('/images/logo3.png'); }
-  87%   { background-image: url('/images/logo2.png'); }
+  0%   { background-image: url('/images/logo5.png'); }
+  25%   { background-image: url('/images/logo4.png'); }
+  50%   { background-image: url('/images/logo3.png'); }
+  75%   { background-image: url('/images/logo2.png'); }
   100%   { background-image: url('/images/logo1.png'); }
 }
