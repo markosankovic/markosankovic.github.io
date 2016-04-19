@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![Profile image](/images/profile.jpg){: .profile-image }
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Marko Sanković &#10548; is the person behind <strong>MALI NERED</strong>. He is a software engineer by &#x1f393;&nbsp; education, software craftsman by &#128156;&nbsp; heart, entrepreneur, tinkerer, open source contributort s, polyglot programmer, web and mobile expert, embedded systems programmer enthusiast.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Marko is partner at Belgrade based company [EsseWorks](http://www.esseworks.com) along with Nikola Živković and Ivan Bajalović. Our field of expertise is development of web and mobile applications, web services, distributed systems, databases, IT automation.
+
+He is currently employed by [Synapticon](https://www.synapticon.com) where he builds modeling and development tools, maintains infrastructure, writes code generators, develops tool for industrial network, writes applications that interface with physical objects.
+
+Recently Marko has devoted time in teaching young fellow software developers in the ways of software craftsmanship through workshops such as [Rails for Girls](http://railsgirls.com/) and internship. [Apply](mailto:sankovic.marko@gmail.com?subject=Apply for intership at MALI NERED) if you would like to get free education.

@@ -8,8 +8,24 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
+      <div class="wrapper" style="position: relative;">
+
+        <nav class="site-nav">
+
+          <div class="trigger">
+            {% for page in site.pages %}
+            {% if page.title %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+            {% endfor %}
+            <a class="page-link" href="{{ site.baseurl }}/">Blog</a>
+          </div>
+        </nav>
+
         {{ content }}
+
+        <div class="scribble"></div>
+
       </div>
     </div>
 
