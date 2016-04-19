@@ -12,16 +12,57 @@ permalink: /contact/
 
 <p>You can reach me at <a href="tel:+381-64-928-0460">+381 (64) 928-0460</a>, or write me a message:</p>
 
-<form id="contact-form" action="#" method="post">
-<div class="form-control">
-<input type="email" name="email" placeholder="Your email address"/>
-</div>
-<div class="form-control">
-<textarea name="message" placeholder="Your message"></textarea>
-</div>
-<div class="form-control">
-<input type="submit" value="SEND" />
-</div>
+<form id="contactForm" action="https://getsimpleform.com/messages?form_api_token=efcacb7ec51952d0f2b8515a79d22623" method="post">
+  <div class="form-control">
+    <input id="email" type="email" name="email" placeholder="Your email address"/>
+  </div>
+  <div class="form-control">
+    <textarea id="message" name="message" placeholder="Your message"></textarea>
+  </div>
+  <div class="form-control">
+    <input type="submit" value="SEND" />
+  </div>
 </form>
 
-<p>I will get back to you within one business day.</p>
+<div id="messageSent">
+  <h2>Your message has been sent successfully!</h2>
+  <p>I will get back to you within one business day.</p>
+</div>
+
+<script type="text/javascript">
+(function() {
+
+  var form = document.getElementById('contactForm');
+
+  if (localStorage.getItem('sent')) {
+    form.parentElement.removeChild(form);
+    var messageSent = document.getElementById('messageSent').style.display = 'block';
+    localStorage.removeItem('sent');
+  }
+
+  form.onsubmit = function(e) {
+
+    // Prevent form from submitting unless email and message are valid.
+    e.preventDefault();
+
+    // Elements.
+    var email = document.getElementById('email');
+    var message = document.getElementById('message');
+
+    // Validation.
+    if (email.value == '') {
+      alert('Email is empty!');
+      return;
+    }
+
+    if (message.value == '') {
+      alert('Message is empty!');
+      return
+    }
+
+    // Email and message are valid. Submit form.
+    localStorage.setItem('sent', true);
+    this.submit();
+  };
+})();
+</script>

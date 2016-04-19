@@ -331,7 +331,12 @@ iframe.google-maps {
   margin-bottom: $base-font-size;
 }
 
-#contact-form {
+#messageSent {
+  display: none;
+  text-align: center;
+}
+
+#contactForm {
   .form-control {
     padding: $base-font-size/2 0;
   }
