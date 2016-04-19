@@ -134,7 +134,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border-radius: 4px;
+  border-radius: 3px;
   color: #f8f8f2;
   background-color: #272822;
 }
@@ -325,4 +325,38 @@ pre {
   50%   { background-image: url('/images/logo3.png'); }
   75%   { background-image: url('/images/logo2.png'); }
   100%   { background-image: url('/images/logo1.png'); }
+}
+
+iframe.google-maps {
+  margin-bottom: $base-font-size;
+}
+
+#contact-form {
+  .form-control {
+    padding: $base-font-size/2 0;
+  }
+  input, textarea {
+    width: 100%;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    font-size: 1em;
+    color: $text-color;
+    padding: $base-font-size / 2;
+    box-sizing: border-box;
+    border-radius: 3px;
+  }
+  input[type=submit] {
+    background-color: black;
+    color: #f8f8f2;
+    cursor: pointer;
+    font-weight: lighter;
+    transition: background-color 0.2s ease-out;
+    &:hover {
+      background-color: $brand-color;
+    }
+  }
+  textarea {
+    height: 120px;
+    vertical-align: top
+  }
 }
