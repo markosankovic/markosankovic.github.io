@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Profile image](/images/profile.jpg){: .profile-image }
 
-Marko Sanković &#10548; is the person behind <strong>MALI NERED</strong>. He is a software engineer by &#x1f393;&nbsp; education, software craftsman by &#128156;&nbsp; heart, entrepreneur, tinkerer, open source contributort s, polyglot programmer, web and mobile expert, embedded systems programmer enthusiast.
+Marko Sanković &#10548; is the person behind <strong>MALI NERED</strong>. He is a software engineer by &#x1f393;&nbsp; education, software craftsman by &#128156;&nbsp; heart, entrepreneur, tinkerer, open source contributor, polyglot programmer, web and mobile expert, embedded systems programmer enthusiast.
 
 Marko is partner at Belgrade based company [EsseWorks](http://www.esseworks.com) along with Nikola Živković and Ivan Bajalović. Our field of expertise is development of web and mobile applications, web services, distributed systems, databases, IT automation.
 
