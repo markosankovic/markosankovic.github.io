@@ -328,7 +328,7 @@ pre {
 }
 
 iframe {
-  margin-bottom: $base-font-size !important;
+  margin-bottom: $spacing-unit / 2 !important;
 }
 
 #messageSent {
@@ -363,5 +363,13 @@ iframe {
   textarea {
     height: 120px;
     vertical-align: top
+  }
+}
+
+ul#tags {
+  margin: 0;
+  margin-bottom: $spacing-unit / 2 !important;
+  li {
+    display: inline;
   }
 }
