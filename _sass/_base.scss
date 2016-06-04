@@ -327,8 +327,8 @@ pre {
   100%   { background-image: url('/images/logo1.png'); }
 }
 
-iframe.google-maps {
-  margin-bottom: $base-font-size;
+iframe {
+  margin-bottom: $base-font-size !important;
 }
 
 #messageSent {
