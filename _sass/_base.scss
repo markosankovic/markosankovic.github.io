@@ -367,9 +367,18 @@ iframe {
 }
 
 ul#tags {
+  font-style: italic;
   margin: 0;
   margin-bottom: $spacing-unit / 2 !important;
   li {
     display: inline;
+  }
+}
+
+.post-list {
+  list-style: none;
+  text-align: center;
+  li {
+    margin-top: $spacing-unit / 2;
   }
 }
