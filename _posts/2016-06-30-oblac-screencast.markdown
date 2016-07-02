@@ -8,7 +8,9 @@ tags: synapticon somanet oblac ide xmos xc ethercat system-designer
 
 [OBLAC][oblac-tools] is a web-based development tool for connected and distributed control systems developed by [Synapticon][synapticon].
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1fxpB4UrOvk" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/1fxpB4UrOvk" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Beside working on OBLAC I have also developed the modeling tool called SystemDesigner which is integrated into OBLAC. It is available as a [standalone modeling tool][system-designer-standalone].
 
