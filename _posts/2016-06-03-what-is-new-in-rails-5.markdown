@@ -2,7 +2,7 @@
 layout: post
 title:  "What's New in Rails 5 presentation at StartIt Centar"
 date:   2016-06-04
-category: presentation
+comments: true
 tags: rails5 websockets actioncable turbolinks
 ---
 Last Monday, May 30, my colleague [Ivan Bajalović][ivan-bajalovic] and i gave a presentation at [StartIt Centar][start-it-centar]. We talked about new features in [Rails 5][rails-5] with focus on Turbolinks and ActionCable.

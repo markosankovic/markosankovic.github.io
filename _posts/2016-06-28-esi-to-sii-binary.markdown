@@ -2,7 +2,7 @@
 layout: post
 title:  "ESI to SII binary"
 date:   2016-06-28
-category: 
+comments: true
 tags: esi sii ethercat microcontroller somanet synapticon
 ---
 

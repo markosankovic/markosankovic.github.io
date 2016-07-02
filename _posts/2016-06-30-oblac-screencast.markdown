@@ -2,7 +2,7 @@
 layout: post
 title:  "OBLAC Screencast"
 date:   2016-06-30
-category: 
+comments: true
 tags: synapticon somanet oblac ide xmos xc ethercat system-designer
 ---
 
