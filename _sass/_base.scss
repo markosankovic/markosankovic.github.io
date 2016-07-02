@@ -22,17 +22,6 @@ body {
   background-color: $background-color;
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-}
-
-body {
-  -webkit-box-shadow: inset 10px 10px 128px 32px rgba(0,0,0,0.1);
-  -moz-box-shadow: inset 10px 10px 128px 32px rgba(0,0,0,0.1);
-  box-shadow: inset 10px 10px 128px 32px rgba(0,0,0,0.1);
-}
 
 
 /**
