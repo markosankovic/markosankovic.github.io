@@ -337,6 +337,7 @@ iframe {
 }
 
 #contactForm {
+  margin-bottom: 1em;
   .form-control {
     padding: $base-font-size/2 0;
   }
@@ -376,8 +377,10 @@ ul#tags {
 }
 
 .post-list {
+  margin: 0;
   list-style: none;
   li {
     margin-top: $spacing-unit / 2;
   }
 }
+

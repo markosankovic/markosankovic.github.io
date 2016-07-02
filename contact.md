@@ -31,6 +31,14 @@ permalink: /contact/
   <p>I will get back to you within one business day.</p>
 </div>
 
+<h2>Company</h2>
+
+<ul>
+  <li>Business name: <a href="http://pretraga2.apr.gov.rs/EnterpreneurPublicWebSearch/Details/EnterpreneurAddressData/6902130?code=BB6B6CF6FFDB630D321CCC97BA034663AB850062">MARKO SANKOVIĆ PR MALI NERED</a></li>
+  <li>Identification number: 63468754</li>
+  <li>Head office: Matice Srpske 57, Belgrade</li>
+</ul>
+
 <script type="text/javascript">
 (function() {
 
