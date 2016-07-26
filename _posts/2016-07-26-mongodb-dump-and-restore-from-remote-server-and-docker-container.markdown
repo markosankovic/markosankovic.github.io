@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MongoDB dump and restore from remote server and Docker container"
-date:   2016-07-13
+date:   2016-07-26
 comments: true
 tags: nosql mongodb dump remote restore server docker container
 ---
