@@ -19,6 +19,7 @@ Dump and Restore
       --password bar \
       --out mongodump-mydb
 
+
 ### Dump from a running MongoDB Docker container:
 
     $ docker run \
@@ -38,6 +39,13 @@ In the --link option mongodb is the name of the running MongoDB Docker container
       -v /root/mongodb-backup:/backup \
       mongo \
       bash -c 'mongorestore /backup --host $MONGO_PORT_27017_TCP_ADDR'
+
+### Restore to a local MongoDB server:
+
+    $ mongodbrestore \
+      mongodb-backup \
+      --host 127.0.0.1 \
+      --port 27017
 
 Manipulate Database
 -------------------
