@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Profile image](/images/profile.jpg){: .profile-image }
 
-Marko Sanković &#10548; is the person behind <strong>MALI NERED</strong>. He is a software engineer by &#x1f393;&nbsp; education, software craftsman by &#128156;&nbsp; heart, entrepreneur, tinkerer, open source contributor, polyglot programmer, web and mobile expert, embedded systems programmer enthusiast.
+Marko Sanković &#10548; is the person behind <strong>MALI NERED</strong>. He is a software engineer by &#x1f393;&nbsp;, software craftsman by &#128156;&nbsp;, entrepreneur, tinkerer, open source contributor, polyglot programmer, web and mobile expert, embedded systems programmer enthusiast.
 
 He is employed by [Synapticon](https://www.synapticon.com) where he builds modeling and development tools, maintains infrastructure, writes code generators, develops tool for industrial network and writes applications that interface with physical objects.
 
